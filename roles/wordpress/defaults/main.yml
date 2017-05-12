@@ -1,0 +1,4 @@
+---
+wp_apache_hostname: 'www.devopsworks.io'
+wp_apache_alias: ''
+wp_apache_admin_email: 'neil@devopsworks.io'

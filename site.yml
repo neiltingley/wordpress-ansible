@@ -1,0 +1,16 @@
+- hosts: all
+  vars:
+    wp_version: 4.0
+    wp_db_name: 'devopsworks'
+    wp_db_user: 'wordpress'
+    wp_db_password: 'X2*BH*zB9mLW'
+    wp_db_host: 'localhost'
+    wp_install_dir: /usr/share/wordpress
+
+    wp_apache_hostname: 'www.devopsworks.io'
+    wp_apache_alias: 'localhost'
+    wp_apache_admin_email: 'admin@devopsworks.io'
+  roles:
+  - php
+  - wordpress
+  - mysql
